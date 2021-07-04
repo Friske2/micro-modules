@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "forceConsistentCasingInFileNames": false,
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,

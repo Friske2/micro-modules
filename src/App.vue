@@ -1,22 +1,20 @@
 <template>
   <div>
-    <ModuleFirst></ModuleFirst>
-    <ModuleSecond></ModuleSecond>
+    test
+    <HelloWorld></HelloWorld>
+    <ModuleFirst msg="hello world"></ModuleFirst>
   </div>
-
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-import ModuleFirst from './modules/moduleFirst/ModuleFirst.vue'
-import ModuleSecond from './modules/moduleSecond/ModuleSecond.vue'
+import ModuleFirst from './modules/ModuleFirst/ModuleFirst.vue'
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    ModuleFirst,
-    ModuleSecond
+    ModuleFirst
   }
 })
 </script>
