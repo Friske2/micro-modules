@@ -1,0 +1,6 @@
+[submodule "src/modules/ModuleFirst"]
+	path = src/modules/ModuleFirst
+	url = https://github.com/Friske2/submodule-first.git
+[submodule "src/modules/ModuleSecond"]
+	path = src/modules/ModuleSecond
+	url = https://github.com/Friske2/submodule-second.git
