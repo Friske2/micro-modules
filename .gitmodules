@@ -1,0 +1,3 @@
+[submodule "src/modules/moduleFirst"]
+	path = src/modules/moduleFirst
+	url = https://github.com/Friske2/submodule-first.git
