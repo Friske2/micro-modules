@@ -1,16 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div>
+    <ModuleFirst></ModuleFirst>
+    <ModuleSecond></ModuleSecond>
+  </div>
+
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-
+import ModuleFirst from './modules/moduleFirst/ModuleFirst.vue'
+import ModuleSecond from './modules/moduleSecond/ModuleSecond.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    ModuleFirst,
+    ModuleSecond
   }
 })
 </script>
