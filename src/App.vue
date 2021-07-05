@@ -1,8 +1,8 @@
 <template>
   <div>
-    test
     <HelloWorld></HelloWorld>
     <ModuleFirst msg="hello world"></ModuleFirst>
+    <ModuleSecond></ModuleSecond>
   </div>
 </template>
 
@@ -10,11 +10,13 @@
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import ModuleFirst from './modules/ModuleFirst/ModuleFirst.vue'
+import ModuleSecond from './modules/ModuleSecond/ModuleSecond.vue'
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    ModuleFirst
+    ModuleFirst,
+    ModuleSecond
   }
 })
 </script>
